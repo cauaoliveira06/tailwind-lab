@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <meta charset="UTF-8">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Figma</title>
+</head>
+
+<body class="font-['Inter']">
+
+  <!-- Container -->
+  <main class="bg-white w-full h-screen flex  ">
+    <!-- section 1 left side -->
+    <section class="w-1/2 bg-white m-8 flex items-center justify-center   ">
+
+      <div class="bg-white h-[765px] w-[388px]  flex flex-col ">
+        <!-- topo -->
+        <div>
+
+          <h1 class="text-4xl font-semibold">Welcome Back 👋</h1>
+
+          <h3 class="my-3 ">Today is a new day. It's your day. You shape it.
+            Sign in to start managing your projects</h3>
+
+        </div>
+        <form class="flex flex-col mt-12 ">
+          <div class="">
+            <label class=" text-base font-medium text-black-100" for="email">Email</label>
+            <input class="bg-[#F7FBFF] px-4 w-[388px] h-[48px] mt-2 rounded-xl border border-gray-300" type="email"
+              id="email" placeholder="Example@email.com">
+          </div>
+          <div class="  mt-6">
+            <label class=" text-base font-medium text-black-100" for="senha">Password</label>
+            <input class="bg-[#F7FBFF] px-4 w-[388px] h-[48px] mt-2 rounded-xl border border-gray-300" id="senha"
+              placeholder="At least 8 characters">
+          </div>
+          <a class="flex justify-end text-[#1E4AE9] text-base my-6" href="#">Forgot Password?</a>
+
+          <button class=" bg-[#162D3A] w-[388px] h-[52px] rounded-xl text-white" type="submit">Sign in</button>
+        </form>
+
+        <div class=" text-center flex items-center my-12">
+          <div class="flex-1 h-px bg-[#CFDFE2]"></div>
+
+          <span class="px-4 text-gray-500">Or</span>
+
+          <div class="flex-1 h-px bg-[#CFDFE2]"></div>
+
+
+
+        </div>
+
+        <div class="  flex flex-col ">
+
+          <button class=" bg-[#F3F9FA] h-[52px] w-[388px] pr-3 gap-4 my-2 rounded-xl flex items-center justify-center"> <img
+              class="w-8 " src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg">Sign in
+            with Google</button>
+          <button class="w-[388px] h-[52px] bg-[#F3F9FA] gap-3 flex rounded-xl justify-center items-center"><img
+              class="w-7" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg">Sign
+            in with Facebook</button>
+        </div>
+
+        <p class="text-center mt-12">Don't you have an account? <a class="text-[#1E4AE9]" href="#">Sign up</a></p>
+
+
+
+      </div>
+
+    </section>
+    <section class=" bg-white w-1/2 p-8 flex items-center justify-center">
+
+      <div class="w-full h-full flex  ">
+
+        <img class="w-full object-cover rounded-3xl " src="img/Art.svg">
+      </div>
+    </section>
+
+  </main>
+
+</body>
+
+</html>
